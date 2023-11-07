@@ -1,0 +1,82 @@
+.logout_container {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.logout {
+  height: 2rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.notification {
+  background-color: rgb(195, 212, 195);
+  height: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: rgb(18, 133, 93);
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  font-weight: bold;
+  color: rgb(29, 114, 66);
+  font-size: large;
+}
+.error {
+  background-color: rgb(214, 176, 169);
+  height: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: red;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  font-weight: bold;
+  color: rgb(174, 9, 9);
+  font-size: large;
+}
+.blog_container {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 2px;
+  border: solid;
+  border-width: 1px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.blog_title {
+  display: flex;
+  gap: 1rem;
+  font-size: xx-large;
+}
+
+.remove_button {
+  background-color: rgb(150, 175, 217);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  background-color: rgb(188, 184, 184);
+}
+
+.user_container {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.name {
+  width: 8rem;
+}
+
+.created {
+  margin-left: 8rem;
+}
